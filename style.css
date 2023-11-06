@@ -386,3 +386,131 @@ body {
     font-style: normal;
     line-height: normal;
 }
+/* --------------------- */
+.shop {
+    display: flex;
+    width: 1400.361px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.heading {
+    display: flex;
+    width: 298px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.heading h2 {
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.heading h3 {
+    color: #274C5B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.shop-content-product {
+    display: flex;
+    width: 1400.361px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.shop-content-product-box {
+    display: flex;
+    width: 1400.361px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box {
+    width: 335px;
+    height: 483px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-color: #f9f8f9;
+    position: relative;
+}
+.box img {
+    margin-top: 30px;
+}
+.rating {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.rating h2 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.rating-div {
+    width: 278px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #dedddd;
+}
+.rating-div-price {
+    padding: 1px 9px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.rating-div-price span {
+    color: #B8B8B8;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: line-through;
+}
+.rating-div-price p {
+    color: #274C5B;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tags {
+    display: flex;
+    padding: 5px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #274C5B;
+    gap: 10px;
+    position: absolute; 
+    top: 34px;
+    left: 42px;
+}
+.tags h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

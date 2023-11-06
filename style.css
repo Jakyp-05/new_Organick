@@ -124,19 +124,82 @@ body {
     padding: 0 15px;
 }
 .cart_div {
-    width: 90px;
+    width: 159px;
     flex-shrink: 0;
     height: 66px;
     background-color: #FAFAFA;
     border-radius: 30px;
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 .cart_div span {
     color: #274C5B;
     font-size: 18px;
     font-family: Roboto;
     font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+}
+.section {
+    position: relative;
+}
+.section-div {
+    position: absolute;
+    top: 0;
+}
+.section-content {
+    position: absolute;
+    top: 304px;
+    left: 260px;
+}
+.section-content-title {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    gap: 8px;
+    align-items: flex-start;
+}
+.section-content-title h2 {
+    color: #68A47F;
+    font-size: 36px;
+    font-family: Yellowtail;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+.section-content-title h3 {
+    width: 530px;
+    color: #274C5B;
+    font-size: 70px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+}
+.section-content-button {
+    width: 220px;
+    height: 79px;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 39px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 16px;
+    background-color: #efd372;
+}
+.section-content-button-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.section-content-button-text h2 {
+    color: #274C5B;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
     font-style: normal;
     line-height: normal;
 }

@@ -235,3 +235,20 @@ body {
     font-style: normal;
     line-height: normal;
 }
+.offer-banner-img-title-position h5 {
+    color: #7EB693;
+    font-size: 36px;
+    font-family: Yellowtail;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.offer-banner-img-title-position h4 {
+    width: 277px;
+    color: #274C5B;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+}

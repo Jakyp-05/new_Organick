@@ -252,3 +252,137 @@ body {
     font-style: normal;
     line-height: normal;
 }
+/* ------------------------ */
+.about {
+    margin-top: 100px;
+    width: 1920px;
+    height: 1067px;
+    flex-shrink: 0;
+    background-color: #F9F8F8;
+    position: relative;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    width: 702px;
+    gap: 46px;
+    align-items: flex-start;
+    position: absolute;
+    top: 186px;
+    left: 850px;
+}
+.about-content_position {
+    display: flex;
+    flex-direction: column;
+    width: 702px;
+    gap: 14px;
+    align-items: flex-start;
+}
+.about-content_position p {
+    width: 690px;
+    color: #525C60;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 165.4%; 
+}
+.about-content_position-div {
+    display: flex;
+    flex-direction: column;
+    width: 702px;
+    gap: 8px;
+    align-items: flex-start;
+}
+.about-content_position-div h2 { 
+    color: #7EB693;
+    font-size: 36px;
+    font-family: Yellowtail;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+.about-content_position-div h3 {
+    color: #274C5B;
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+}
+.points {
+    display: flex;
+    flex-direction: column;
+    width: 564px;
+    gap: 30px;
+    align-items: flex-start;
+}
+.points_content {
+    display: flex;
+    align-items: center;
+    width: 564px;
+    gap: 19px;
+}
+.points_content .icon {
+    width: 101px;
+    height: 101px;
+    flex-shrink: 0;
+}
+.icon-div {
+    width: 101px;
+    height: 101px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #FFF;
+}
+.icon-div img {
+    margin-top: 25px;
+    margin-left: 27px;
+}
+.points-icon {
+    display: flex;
+    flex-direction: column;
+    width: 444px;
+    gap: 7px;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.points-icon h2 {
+    color: #274C5B;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+}
+.points-icon p {
+    color: #525C60;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 165.4%; 
+}
+.about-content button {
+    display: flex;
+    padding: 28px 39px;
+    width: 220px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background-color: #274C5B;
+}
+.div-btn {
+    display: flex;
+    gap: 10px;
+}
+.div-btn h2 {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+}

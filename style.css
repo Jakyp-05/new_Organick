@@ -821,3 +821,73 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+.nature {
+    width: 1660px;
+    height: 931px;
+    flex-shrink: 0;
+    position: relative;
+}
+.nature-content {
+    position: absolute;
+    width: 789px;
+    height: 723px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border-radius: 30px;
+    top: 178px;
+    left: 800px;
+}
+.nature-content-div {
+    padding: 100px;
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+.nature-content-div-heading h2 {
+    color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.nature-content-div-heading h3 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.nature-content-div-points {
+    display: flex;
+    width: 635px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+.nature-content-div-points-title {
+    display: flex;
+    width: 635px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+}
+.nature-content-div-points-title h2 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.nature-content-div-points-title p {
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+}

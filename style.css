@@ -1120,3 +1120,75 @@ line-height: normal;
     font-weight: 800;
     line-height: normal;
 }
+.newslatter {
+    width: 1400px;
+    height: 323px;
+    flex-shrink: 0;
+    margin-top: 185px;
+    position: relative;
+}
+.input-div {
+    display: flex;
+    width: 1258px;
+    align-items: center;
+    gap: 326px;
+    position: absolute;
+    top: 110px;
+    left: 80px;
+}
+.input-div-heading {
+    width: 357px;
+    top: 0;
+}
+.input-div-heading h2 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.input-div-button {
+    display: flex;
+    width: 575px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
+.input-div-button input {
+    width: 349px;
+    height: 80px;
+    flex-shrink: 0;
+    outline: none;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 0 23px;
+    font-size: 20px;
+}
+.input-div-button input::placeholder {
+    color: #ABABAB;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.input-div-button button {
+    display: flex;
+    width: 220px;
+    padding: 28px 47px 29px 47px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-color: #274C5B;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

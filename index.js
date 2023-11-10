@@ -85,3 +85,15 @@ let showCart = products.map((item) => {
     `
 });
 shopContentProducBox.innerHTML = showCart.join('');
+
+const latterBtn = document.getElementById("latter-btn");
+const latterInput = document.getElementById("latter-input");
+
+latterBtn.onclick = () => {
+    if(latterInput.value) {
+        alert("hello")
+        latterInput.style.border = '3px solid green'
+    } else {
+        latterInput.style.border = '3px solid red'
+    }
+}

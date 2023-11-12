@@ -121,6 +121,7 @@ body {
     border: none;
     font-size: 20px;
     padding: 0 15px;
+    outline: none;
 }
 .cart_div {
     width: 159px;
@@ -131,6 +132,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+    position: relative;
 }
 .cart_div span {
     color: #274C5B;
@@ -139,6 +141,18 @@ body {
     font-weight: 600;
     font-style: normal;
     line-height: normal;
+}
+/* ------------cart-shopping------------- */
+.cart-shopping {
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    box-shadow: 3px 4px 1px rgba(0, 0, 0, 0.5);
+    display: none;
 }
 .section {
     position: relative;
@@ -1342,3 +1356,4 @@ line-height: normal;
     font-weight: 700;
     line-height: 165.4%;
 }
+/* ------------------------------ */

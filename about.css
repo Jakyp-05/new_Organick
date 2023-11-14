@@ -334,11 +334,13 @@ body {
     justify-content: center;
 }
 .about-team {
+    margin-top: 177px;
     display: flex;
     width: 1401px;
     flex-direction: column;
     align-items: center;
     gap: 42px;
+    margin-bottom: 237px;
 }
 .team-content {
     display: flex;
@@ -438,4 +440,77 @@ body {
     align-items: center;
     gap: 17px;
     flex-shrink: 0;
+}
+.offer-product {
+    width: 1920px;
+    height: 892px;
+    flex-shrink: 0;
+    background-color: #274C5B;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.offer-product-content {
+    display: flex;
+    width: 1399.41px;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+}
+.offer-product-content-title {
+    display: flex;
+    width: 502px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.offer-product-content-title h2 {
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.offer-product-content-title h3 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.offer-product-content-img {
+    display: flex;
+    width: 1399.41px;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 21px;
+}
+.offer-product-content-img-div {
+    width: 334.102px;
+    height: 367px;
+    flex-shrink: 0;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offer-product-content-img h2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 140px;
+}
+.content-img-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

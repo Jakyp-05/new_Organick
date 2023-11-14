@@ -1207,6 +1207,7 @@ line-height: normal;
 }
 /* ------------footer--------------- */
 .footer {
+    margin-top: 150px;
     width: 1920px;
     height: 492px;
     flex-shrink: 0;

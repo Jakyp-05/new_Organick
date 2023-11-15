@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@400;500;700&family=Yellowtail&display=swap');
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #252b42;
+    font-weight: 500;
+    font-family: Archivo;
+}
+/* -------------------------- */
+.shop__banner {
+    width: 1920px;
+    height: 450px;
+    flex-shrink: 0;
+    background-image: url(./assets/images/shop__banner.png);
+    background-size: cover; 
+    position: relative;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.shop__banner h2 {
+    position: absolute;
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}

@@ -17,7 +17,7 @@ let products = [
     },
     {
         id: 3,
-        image: "./assets/svg/3.svg",
+        image: "./assets/images/3.png",
         title: "White Nuts",
         span: "20.00",
         price: "15.00",
@@ -25,7 +25,7 @@ let products = [
     },
     {
         id: 4,
-        image: "./assets/svg/4.svg",
+        image: "./assets/images/4.png",
         title: "Vegan Red Tomato",
         span: "20.00",
         price: "17.00",
@@ -33,7 +33,7 @@ let products = [
     },
     {
         id: 5,
-        image: "./assets/svg/5.svg",
+        image: "./assets/images/5.png",
         title: "Mung Bean",
         span: "20.00",
         price: "11.00",
@@ -41,7 +41,7 @@ let products = [
     },
     {
         id: 6,
-        image: "./assets/svg/6.svg",
+        image: "./assets/images/6.png",
         title: "Brown Hazelnut",
         span: "20.00",
         price: "12.00",
@@ -49,7 +49,7 @@ let products = [
     },
     {
         id: 7,
-        image: "./assets/svg/7.svg",
+        image: "./assets/images/7.png",
         title: "Eggs",
         span: "20.00",
         price: "17.00",
@@ -57,7 +57,7 @@ let products = [
     },
     {
         id: 8,
-        image: "./assets/svg/8.svg",
+        image: "./assets/images/8.png",
         title: "Zelco Suji Elaichi Rusk",
         span: "20.00",
         price: "15.00",

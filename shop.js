@@ -149,12 +149,27 @@ const shopBlock = array.map(item => {
 
 cardBlock.innerHTML = shopBlock.join("")
 
+// let stars = document.querySelectorAll(".star i");
+
+// stars.forEach((item, index1) => {
+//     item.addEventListener("click", () => {
+//         stars.forEach((star, index2) => {
+//             if (index1 >= index2) {
+//                 star.classList.add("active");
+//             } else {
+//                 star.classList.remove("active");
+//             }
+//         });
+//     });
+// });
 let stars = document.querySelectorAll(".star i");
 
 stars.forEach((item, index1) => {
     item.addEventListener("click", () => {
         stars.forEach((star, index2) => {
-            if (index1 >= index2) {
+            if (index1 === index2) {
+                star.classList.toggle("active");
+            } else if (index2 < index1) {
                 star.classList.add("active");
             } else {
                 star.classList.remove("active");
@@ -162,4 +177,5 @@ stars.forEach((item, index1) => {
         });
     });
 });
+
 
